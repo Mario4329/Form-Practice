@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  border: solid 4px rgba(51, 102, 94, 0.404);
+  padding: 8px;
+  margin: 0px 300px;
+  background-color: rgba(148, 238, 208, 0.801);
+}
+
+#form {
+  display: flex;
+  background-color: rgb(151, 238, 209);
+  height: 300px;
+  margin: 0 17.5em;
+  border: solid 4px rgba(51, 102, 94, 0.404);
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+
+  align-items: center;
+  margin-top: 2.5em;
+}
+
+label {
+  display: inline-block;
+  width: 85px;
+  white-space: nowrap;
+}
+
+input[type="text"] {
+  width: 210px;
+  height: 20px;
+  border-color: blue;
+}
