@@ -36,3 +36,13 @@ input[type="text"] {
   height: 20px;
   border-color: blue;
 }
+
+.submit-btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 100px;
+  height: 40px;
+  /* Find out how they style it in height width and other things */
+  font-weight: bold;
+  font-size: 22px;
+}
